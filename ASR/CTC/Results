@@ -1,0 +1,100 @@
+[dan@gpu15 CTC]$ python CTC_eval.py 
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcublas.so.7.5 locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcufft.so.7.5 locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:108] successfully opened CUDA library libcurand.so.7.5 locally
+Loading data
+Defining graph
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 0 with properties: 
+name: GeForce GTX TITAN X
+major: 5 minor: 2 memoryClockRate (GHz) 1.076
+pciBusID 0000:82:00.0
+Total memory: 12.00GiB
+Free memory: 11.87GiB
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:126] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:838] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:82:00.0)
+Model Restored
+Edit distance 30.6136289468 Softmax Confidence (mean, std) 0.674506 0.0285755
+Loading OOD data
+airport edit distance 83.5833155192 Softmax Confidence (mean, std) 0.589759 0.0217348
+
+airport KL[p||u]: In/out distribution distinction
+AUPR 0.996187177035
+AUROC 0.99555147929
+
+airport Prediction Prob: In/out distribution distinction
+AUPR 0.992459880039
+AUROC 0.991801183432
+Loading OOD data
+babble edit distance 84.2135323928 Softmax Confidence (mean, std) 0.54776 0.0159066
+
+babble KL[p||u]: In/out distribution distinction
+AUPR 0.999807713808
+AUROC 0.999761538462
+
+babble Prediction Prob: In/out distribution distinction
+AUPR 0.999945897972
+AUROC 0.99994260355
+Loading OOD data
+car edit distance 78.9140297816 Softmax Confidence (mean, std) 0.590235 0.0326603
+
+car KL[p||u]: In/out distribution distinction
+AUPR 0.988051373623
+AUROC 0.988092899408
+
+car Prediction Prob: In/out distribution distinction
+AUPR 0.976573045949
+AUROC 0.977985798817
+Loading OOD data
+exhibition edit distance 86.6947210752 Softmax Confidence (mean, std) 0.568382 0.0267559
+
+exhibition KL[p||u]: In/out distribution distinction
+AUPR 0.99732480754
+AUROC 0.997095857988
+
+exhibition Prediction Prob: In/out distribution distinction
+AUPR 0.995979972057
+AUROC 0.99615147929
+Loading OOD data
+restaurant edit distance 81.0788970727 Softmax Confidence (mean, std) 0.595161 0.0280123
+
+restaurant KL[p||u]: In/out distribution distinction
+AUPR 0.989542330471
+AUROC 0.989379881657
+
+restaurant Prediction Prob: In/out distribution distinction
+AUPR 0.977841495183
+AUROC 0.978905325444
+Loading OOD data
+street edit distance 85.2036719139 Softmax Confidence (mean, std) 0.518489 0.0189123
+
+street KL[p||u]: In/out distribution distinction
+AUPR 0.999935414376
+AUROC 0.999931360947
+
+street Prediction Prob: In/out distribution distinction
+AUPR 0.999991176409
+AUROC 0.99999112426
+Loading OOD data
+subway edit distance 83.7941188079 Softmax Confidence (mean, std) 0.561784 0.0258284
+
+subway KL[p||u]: In/out distribution distinction
+AUPR 0.999045645861
+AUROC 0.998751183432
+
+subway Prediction Prob: In/out distribution distinction
+AUPR 0.998678791909
+AUROC 0.998600591716
+Loading OOD data
+train edit distance 83.2656993316 Softmax Confidence (mean, std) 0.577869 0.0211724
+
+train KL[p||u]: In/out distribution distinction
+AUPR 0.998478624997
+AUROC 0.997935502959
+
+train Prediction Prob: In/out distribution distinction
+AUPR 0.997399305399
+AUROC 0.997132544379
+

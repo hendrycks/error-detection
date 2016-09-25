@@ -1,0 +1,2 @@
+model_checkpoint_path: "bid3rnn_tagger.ckpt-9"
+all_model_checkpoint_paths: "bid3rnn_tagger.ckpt-9"

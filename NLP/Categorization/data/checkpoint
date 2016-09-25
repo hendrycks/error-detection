@@ -1,0 +1,2 @@
+model_checkpoint_path: "best_r8_model.ckpt"
+all_model_checkpoint_paths: "best_r8_model.ckpt"
