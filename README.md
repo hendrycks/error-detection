@@ -6,12 +6,13 @@ Most results are in Jupyter notebooks since several data sets used have licensin
 
 ## Citation
 
-    @inproceedings{hendrycks17baseline,
+    @article{hendrycks17baseline,
       author    = {Dan Hendrycks and Kevin Gimpel},
       title     = {A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks},
-      booktitle = {Proceedings of International Conference on Learning Representations},
+      journal = {Proceedings of International Conference on Learning Representations},
       year = {2017},
     }
+
 
 ## Follow-up Project
 
